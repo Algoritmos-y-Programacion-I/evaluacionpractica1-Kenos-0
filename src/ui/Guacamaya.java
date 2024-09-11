@@ -100,8 +100,17 @@ public class Guacamaya {
     }
 
     public static void solicitarDatos(){
+        
+        for(int i = 0; i < precios.length; i++){
+        System.out.println("\nDigite el Precio del producto ");
+        double precios = reader.nextInt();
+        }
+        for(int i = 0; i < unidades.length; i++){
+        System.out.println("\nDigite la cantidad del producto ");
+        int unidades = reader.nextInt();
 
-     
+        return 0; 
+        }
     }
 
     public static int calcularTotalUnidadesVendidas(){
